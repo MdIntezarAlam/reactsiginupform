@@ -1,0 +1,91 @@
+/* *{
+    margin: 0;
+    padding:0;
+} */
+.acc_container {
+    background: rgb(229, 235, 235);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    /* position: fixed; */
+}
+
+.acc-wrapper {
+    background-color: #fff;
+    width: 320px;
+    min-height: 450px;
+    box-sizing: border-box;
+    background-color: rgb(209, 216, 202);
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0.5px;
+    margin-bottom: 8%;
+    margin-top: 5%;
+}
+
+.heading {
+    color: black;
+    text-align: center;
+    margin: 80px 0px 40px 0px;
+}
+
+.name .email .mobile .password {
+    margin: 20px;
+    color: #969292;
+    font-size: 19px;
+}
+
+span {
+    margin-left: 5%;
+}
+
+.label {
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.mobile {
+    margin-bottom: 40px;
+}
+
+.msg {
+    margin-left: 5%;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.input {
+    margin-top: 3%;
+    margin-left: 5%;
+    height: 32px;
+    font-size: 20px;
+    outline: none;
+    width: 85%;
+    height: 40px;
+    border-bottom-style: 2px solid black;
+    margin-bottom: 10px;
+}
+.error {
+    color: red;
+}
+.submit {
+    margin-top: 3%;
+    margin-left: 28%;
+    color: black;
+    background-color: #F3D078;
+    box-shadow: 10px 10px 10px 0.5px white;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+
+.form_success {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    min-width: 370px;
+    color: red;
+}
